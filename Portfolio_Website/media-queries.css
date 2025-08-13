@@ -1,0 +1,531 @@
+
+/** Responsive Design**/
+
+/*For Laptop **/
+
+@media (min-width: 1024px) {
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.Container{
+    background-color:rgb(6, 6, 10);
+    height: 100vh;
+    width: 100%;
+    color: white;
+    position: relative;
+    margin-top: -5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+  .profile-section{
+    padding-top: 140px;
+  }
+}
+
+
+/*For Ipad Mini  **/
+@media screen and (max-width: 768px){
+nav{
+        position: fixed;
+        width: 100%;
+        z-index: 1000; 
+    }
+
+.Container{
+        background-color:rgb(6, 6, 10);
+        
+        
+}
+.menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+       
+}
+
+label{
+        display: inline-flex;
+    }
+ #toggler:checked~.menu{
+        max-height: 100%;
+ }
+
+.list{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+}
+
+#toggle{
+     position: relative;
+     right: 12%;
+     top: 5px;
+}
+
+.logo{
+        font-size: 29px;
+
+}
+.profile-section{
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.pic-profile{
+    padding-left: 250px;
+}
+
+.main-container1{
+    position: relative;
+    left: 30%;
+    padding-top: 20px;
+}
+.btns{
+    padding-right: 25px;
+}
+
+.About-section{
+    padding: 15px;
+}
+.Container4{
+    height: 1200px;
+    padding-bottom: 20px;
+}
+.services{
+    height: 1010px;
+    width: 90%;
+     padding: 5px;
+}
+
+.cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    position: relative;
+    right: 8%; 
+
+}
+
+.card{
+    height: 320px;
+    width: 320px;
+    background-color: #131311;
+    padding: 3% 8%;
+   border-radius: 8px;
+   transition: .6s;
+   display: flex;
+   align-items: center;
+   flex-direction:column;
+}
+.Container5{
+    height: 1010px;
+}
+
+.proj-headline{
+    padding-top: 20px;
+}
+
+.proj-section{
+     position: relative;
+     top:-4%;
+
+}
+.Container6{
+    height: 950px;
+}
+
+.Contact-page{
+  width: 50%;
+}
+
+.footer-btm{
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    font-family:monospace;
+
+}
+}
+
+@media screen and (max-width: 650px){
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+       justify-content: center;
+       align-items: center;
+       
+    }
+
+  label{
+        display: inline-flex;
+    }
+    #toggler:checked~.menu{
+        max-height: 100%;
+    }
+
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+}
+
+
+
+/*For all Smart phones **/
+@media screen and (max-width: 480px){
+.Container{
+    height: 700px;
+}
+ .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+       justify-content: center;
+       align-items: center;
+       
+    }
+.name{
+    font-size: 30px;
+
+}
+.pic-section{
+    height: 250px;
+    position: relative;
+    right: 50%;
+    
+}
+
+.main-container1{
+  position: relative;
+  left: 120px;
+
+}
+
+.font-profile{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: start;
+}
+.btns{
+    display: inline-block;
+    justify-content: start;
+    padding-top: 10px;
+    padding-right: 5px;
+    
+}
+.download-btn{
+     border-radius: 12px;
+     font-size: 15px;
+
+}
+.read-btn{
+    border-radius: 12px;
+    font-size: 15px;
+
+}
+.Container2{
+    height: 800px; 
+}
+
+.About-section{
+    display: inline-block;
+    gap: 2px;
+    position: relative;
+    bottom: 150px;
+}
+.abt-img{
+    position: relative;
+    left: 17%;
+}
+.abt-logo{
+    height: 200px;
+    width: 300px;
+       
+}
+.abt-info{
+    position: relative;
+    bottom: 100px;
+    flex-wrap: wrap;
+}
+.abt-para{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.Container2{
+    height: 700px;
+}
+
+.FS{
+    font-weight: 700;
+}
+
+.Container3{
+    height: 500px;
+}
+.skills{
+    text-align: center;
+    font-size: 28px;
+    padding-right: 40px;
+       
+}
+.skill{
+    width: 300px;
+    height: 300px;
+}
+.bar{
+    height: 12px;
+}
+.Container4{
+    height: 2080px;
+
+}
+.services{
+    height: 1900px;
+    width: 80%;
+}
+.card{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    left: -1%;
+}
+.cards{
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+  
+}
+
+.Container5{
+    height: 1800px;
+    width: 100%;  
+
+}
+.proj-card{
+    width: 350px;
+    height: 360px;
+}
+
+.Container6{
+    width: 100%;  
+    height: 1900px;
+}
+.cert-card{
+    width: 350px;
+    height: 400px;
+}
+.Container7{
+    height: 500px;
+   
+}
+
+.Contact-page{
+    width: 80%;
+
+
+}
+.footer-btm{
+    text-align: center;
+    font-weight: 600;
+    font-size: 10px;
+    font-family:monospace;
+
+}
+
+}
+
+
+
+
+
+/*For Samsung S8+**/
+@media screen and (max-width: 360px){
+.logo{
+    font-size: 29px;
+
+}
+.logosub{
+    font-size: 40px;
+
+}
+#toggle{
+    height: 25px;
+    padding-left: 45px;
+}
+
+.Container{
+    height: 700px;
+}
+.pic-section{
+    position: relative;
+    height: 250px;
+    right: 85%;
+    
+}
+
+.main-container1{
+  position: relative;
+  left: 10%;
+
+}
+.name{
+    font-size: 30px;
+
+}
+.font-profile{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: start;
+}
+.btns{
+    display: inline-block;
+    justify-content: start;
+    padding-top: 10px;
+    padding-right: 5px;
+    
+}
+.download-btn{
+     border-radius: 12px;
+     font-size: 15px;
+
+}
+.read-btn{
+    border-radius: 12px;
+    font-size: 15px;
+}
+.Container2{
+    height: 800px; 
+}
+
+.About-section{
+    display: inline-block;
+    gap: 2px;
+    position: relative;
+    bottom: 150px;
+}
+
+.abt-logo{
+    height: 200px;
+    width: 300px;
+   padding-right: 80px;
+    
+}
+.abt-info{
+    position: relative;
+    bottom: 100px;
+    flex-wrap: wrap;
+}
+.abt-para{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.FS{
+    font-weight: 700;
+}
+
+.Container3{
+    height: 550px;
+}
+.skills{
+    text-align: center;
+    font-size: 28px;
+    padding-right: 40px;
+       
+}
+.skill{
+    width: 300px;
+    height: 300px;
+}
+.bar{
+    height: 12px;
+}
+.Container4{
+    height: 2080px;
+}
+.services{
+    height: 1900px;
+    width: 330px;
+
+}
+
+.card{
+    position: relative;
+    left: -12%;
+    height: 300px;
+    width: 300px;
+    
+    
+}
+.cards{
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+  
+}
+
+.Container5{
+    height: 1800px;
+    width: 100%;  
+
+}
+
+.proj-card{
+    width: 300px;
+    height: 360px;
+}
+
+.Container6{
+    width: 100%;  
+    height: 1900px;
+}
+.cert-card{
+    width: 300px;
+    height: 400px;
+}
+.Container7{
+    height: 500px;
+   
+}
+.Contact-page{
+    width: 83%;
+}
+
+.cpybtn{
+    background-color: rgb(32, 135, 32);
+    border-radius: 10px;
+    font-size: 20px;
+}
+.footer-btm{
+    text-align: center;
+    font-weight: 600;
+    font-size: 9px;
+    font-family:monospace;
+
+}
+
+}
+
+
+
+
+
+
+
